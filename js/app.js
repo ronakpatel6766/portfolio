@@ -16,7 +16,7 @@ $(document).ready(function () {
     })
 
     var typed = new Typed(".element", {
-        strings: ["Ronak Patel", "a front-end developer", "a Web Developer", "a UI developer", " a Ux designer"],
+        strings: ["Ronak Patel", "a Front-End Developer", "a Web Developer", "a UI Developer", " a UX/UI Designer"],
         smartBackspace: true,
         typeSpeed: 100,
         backspeed: 100,
@@ -40,7 +40,14 @@ $(document).ready(function () {
             p[5].setAttribute("style", "Width:70%; transition:2.7s all");
             p[6].setAttribute("style", "Width:89%; transition:3s all");
             p[7].setAttribute("style", "Width:82%; transition:3.3s all");
-
+            p[8].setAttribute("style", "Width:95%; transition:3.7s all");
+            p[9].setAttribute("style", "Width:85%; transition:4s all");
+            p[10].setAttribute("style", "Width:90%; transition:4.1s all");
+            p[11].setAttribute("style", "Width:75%; transition:4.3s all");
+            p[12].setAttribute("style", "Width:80%; transition:4.4s all");
+            p[13].setAttribute("style", "Width:70%; transition:4.6s all");
+            p[14].setAttribute("style", "Width:89%; transition:4.8s all");
+            p[15].setAttribute("style", "Width:82%; transition:5s all");
 
         },
         offset: '90%'
@@ -75,7 +82,7 @@ $(document).ready(function () {
         }
     })
 
-   
     
+
 });
 

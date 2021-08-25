@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 h1,
@@ -26,9 +27,13 @@ p {
   padding: 5px 20px;
   background: #ee8683 !important;
   color: #fff !important;
+  margin-bottom: 5px;
 }
 .bg-sec {
   background-color: #f8f9fa;
+}
+.card {
+  margin-bottom: 15px;
 }
 /* Preloader effect */
 
@@ -156,7 +161,7 @@ header {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/bg.jpg);
+    url(../images/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -165,14 +170,12 @@ header {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 }
 .content-box {
-  /* max-width: 1266px; */
-  width: 40%;
+  max-width: 700px;
   color: white;
-  margin-left: 20px;
 }
 .content-box h4 {
   font-size: 30px;
@@ -270,12 +273,44 @@ header {
   background: #e65f78;
 }
 
+/*  testimony classes*/
 
+.testimony-class .text-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.testimony-class .test-item {
+  color: grey;
+}
+
+.test-item p.test-name {
+  font-size: 11px;
+}
+
+/*work */
+.work .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*  contact-us*/
+
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
 
 /* footer section*/
 footer {
   height: 140px;
-  background-color: #333;
+  background-color: #000;
 }
 footer .r-icon a {
   font-size: 20px;
@@ -344,7 +379,6 @@ footer .r-icon a:hover {
 .owl-dot.active {
   background-color: #fff !important;
 }
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -532,4 +566,65 @@ footer .r-icon a:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.resume p{
+  font-size: 17px;
 }
